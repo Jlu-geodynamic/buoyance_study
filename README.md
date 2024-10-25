@@ -26,12 +26,17 @@ FastScape commit 18f2588
 # Additional ASPECT plugins statement:
 
 1."comp" and "rift" were modified from the plugins used in the study: 
-Evolution of rift systems and their fault networks 
+
+
+Evolution of rift systems and their fault networks in response to surface processes
+
 Derek Neuharth, Sascha Brune, Thilo Wrona, Anne Glerum, Jean Braun, Xiaoping Yuan 
 
-in response to surface processes", we change some initial setting to fit the grain size evolution.
 
-2."grain" were modified from the sorce code, we added grain size evolution in the ViscoPlastic model.
+We change some initial setting to fit the grain size evolution.
+
+
+2."grain" were modified from the sorce code. We added grain size evolution in the ViscoPlastic model.
 
 
 To install ASPECT with FastScape
