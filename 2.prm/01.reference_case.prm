@@ -377,6 +377,9 @@ subsection Material model
     #order:                                                             upper             lower          mentle_L
     set GrainInit Layer thicknesses =                       20e3      ,        15e3     ,        85e3
     set edotii limit for grain size reduction =           5e-16
+
+    #To increase the stability around the boundary of different material, we modify the phase fraction in the model.
+    #The material phase less than 2% will be eliminated.
     set Ratio of fractions modification =                  2e-2
 
     # Plasticity parameters
