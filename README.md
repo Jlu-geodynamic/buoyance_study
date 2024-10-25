@@ -9,16 +9,18 @@ Model runs in the study used dealii 9.2.0.
 
 The software version used for this study is found at: 
 
-aspect 2.3
+ASPECT 2.3
 
         https://github.com/Djneu/aspect/tree/fault_analysis
 	
 fastscape commit 18f2588
 
 (elimated)
+
         https://github.com/fastscape-lem/fastscapelib-fortran 
 	
 (backup)
+
         https://github.com/Jlu-geodynamic/fastscape_backup_commit18f2588
 
 # Additional ASPECT plugins statement:
