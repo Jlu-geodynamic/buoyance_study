@@ -1,18 +1,23 @@
-Files used in the study: 
+# Files used in the study: 
 Controls on Asymmetric Continental Crustal Thinning to Symmetric Mantle Exhumation at Magma-poor Rifted Margins: Processes constrained 
 by the West Iberia-Newfoundland Conjugate Margins.
+
 Yuan Wang, Zhonglan Liu, W Roger Buck, Xuan-Long Shan, Dian-Ju Wang, Wei-Min Li, Wen-Liang Xu
 
 
 Model runs in the study used dealii 9.2.0.
+
 The software version used for this study is found at: 
 
-aspect 2.3: https://github.com/Djneu/aspect/tree/fault_analysis
-fastscape commit 18f2588: https://github.com/fastscape-lem/fastscapelib-fortran (elimated)
-                                         https://github.com/Jlu-geodynamic/fastscape_backup_commit18f2588(backup)
+aspect 2.3
+          https://github.com/Djneu/aspect/tree/fault_analysis
+fastscape commit 18f2588
+(elimated)
+                 https://github.com/fastscape-lem/fastscapelib-fortran 
+(backup)
+                 https://github.com/Jlu-geodynamic/fastscape_backup_commit18f2588
 
-
-Additional ASPECT plugins statement:
+# Additional ASPECT plugins statement:
 
 1."comp" and "rift" were modified from the plugins used in the study: 
 Evolution of rift systems and their fault networks 
