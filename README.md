@@ -13,7 +13,7 @@ ASPECT 2.3
 
         https://github.com/Djneu/aspect/tree/fault_analysis
 	
-fastscape commit 18f2588
+FastScape commit 18f2588
 
 (elimated)
 
