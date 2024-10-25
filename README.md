@@ -39,15 +39,20 @@ We change some initial setting to fit the grain size evolution.
 2."grain" were modified from the sorce code. We added grain size evolution in the ViscoPlastic model.
 
 
-To install ASPECT with FastScape
+# To install ASPECT with FastScape
 
 1.Get ASPECT and FastScape from the sites above.
 
+        git clone https://github.com/Djneu/aspect/tree/fault_analysis
+        git clone https://github.com/Jlu-geodynamic/fastscape_backup_commit18f2588
+
 2.Create a build directory for fastscape and compile it with an added flag for creating a shared library.
-                cmake -DBUILD_FASTSCAPELIB_SHARED=ON /path/to/fastscapemake
-	make
+
+        cmake -DBUILD_FASTSCAPELIB_SHARED=ON /path/to/fastscapemake
+        make
 
 3.Compile ASPECT with a flag FASTSCAPE_DIR pointing to the fastscape build folder with the shared library
-	cmake -DFASTSCAPE_DIR=/path/to/fastscape/build -DDEAL_II_DIR=/path/to/dealii -DCMAKE_BUILD_TYPE=Release /path/to/aspect
-	make
+
+        cmake -DFASTSCAPE_DIR=/path/to/fastscape/build -DDEAL_II_DIR=/path/to/dealii -DCMAKE_BUILD_TYPE=Release /path/to/aspect
+        make
 
